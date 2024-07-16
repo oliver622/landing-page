@@ -5,12 +5,66 @@
 
 body {
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     background-color: #1F2937;
     color: white;
     height: 100px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+
+}
+
+.header-container p {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 20px;
+}
+
+.header-container nav {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #E5E7EB;
+}
+
+header a:focus {
+    color: #E5E7EB;
+}
+
+header a:hover {
+    color: #E5E7EB;
+}
+
+header a:active {
+    color: #E5E7EB;
 }
 
 .darktop {
