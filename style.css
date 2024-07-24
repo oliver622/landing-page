@@ -69,8 +69,64 @@ header a:active {
 
 .darktop {
     background-color: #1F2937;
-    height: 500px;
+    height: 400px;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.awesomesection {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftawesome {
+    max-width: 400px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signupbutton {
+    background-color: #3882F6;
+    max-width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signupbutton {
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.signupbutton,
+a:focus,
+a:hover,
+a:active {
+    color: white;
+}
+
+.leftawesome {
+    font-size:
+}
+
+.rightawesome img {
+    width: 500px;
 }
 
 .random {
