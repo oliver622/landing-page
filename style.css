@@ -167,7 +167,30 @@ a:active {
 .quote {
     background-color: #E5E7EB;
     height: 500px;
-    color: white;
+}
+
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#author {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 70px;
 }
 
 .bottom {
